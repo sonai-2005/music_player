@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, rgb(85, 85, 205), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-player{
+    
+    height: 70vh;
+    width: 50vh;
+    background-color: rgb(123, 163, 227);
+    border-radius:2vh;
+
+}
+.circle{
+    margin: 2vh;
+}
+nav i{
+    font-size: 2vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .circle{
+    height: 4vh;
+    width: 4vh;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.5); 
+    transition: 0.2s ease-in-out transform;
+    
+}
+nav .circle:hover{
+    background-color: rgb(209, 206, 206);
+    transform: scale(1.2);
+}
+nav .circle:active{
+    background-color: rgb(190, 186, 186);
+    transform: scale(1);
+    transition-duration: 0.01s;
+}
+#img{
+    height: 25vh;
+    width: 25vh;
+    border: 1vh solid white;
+    border-radius: 50%;
+    background-size: contain;
+    box-shadow: 1vw 1vw 2vw rgba(67, 67, 67, 0.5); 
+    background-repeat: no-repeat;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    margin: 2vh;
+    text-align: center;
+    
+    
+}
+#name{
+    font-size: 4vh;
+}
+#singer{
+    font-size: 2vh;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#progress{
+    appearance: none; 
+    width: 40vh;
+    margin: 2vh;
+    height: 1vh;
+    background: rgb(40, 138, 190);
+    cursor: pointer;
+    border-radius: 5px;
+}
+#progress::-webkit-slider-thumb {
+    appearance: none;
+    width: 2vh; 
+    height: 2vh;
+    border-radius: 50%;
+    background-color: black;
+}
+.control{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.control div{
+    margin: 1vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    box-shadow: 0.5vw 0.5vw 1vw  rgb(20, 20, 20); 
+    background-color: rgb(164, 240, 247);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    transition: 0.2s ease-in-out transform;
+}
+.control div i{
+    font-size: 3vh;
+}
+
+.control div:nth-child(2){
+    transform: scale(1.4);
+    background-color: rgb(91, 177, 223);
+}
+.control div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.control div:active{
+    transform: scale(0.9);
+}
+.time{
+    width:5vh;
+    height: 3vh;
+    background-color: red;
+    margin:3vh;
+}
+span{
+    margin: 2vh;
+}
