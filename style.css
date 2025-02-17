@@ -140,3 +140,6 @@ nav .circle:active{
 span{
     margin: 2vh;
 }
+#progress::-webkit-slider-thumb {
+    background-color: var(--thumb-color, black);
+}
