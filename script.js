@@ -9,6 +9,10 @@ const singer = document.querySelector("#singer");
 const img = document.querySelector("#img");
 const currTime = document.querySelector("#current-time");
 const totalTime = document.querySelector("#total-time");
+document.querySelector("#progress").style.setProperty("--thumb-color", "white");
+window.onload = () => {
+    document.getElementById("progress").value = 0;
+};
 
 
 let isPlaying = false;
