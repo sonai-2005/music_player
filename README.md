@@ -11,8 +11,7 @@
 ```bash
 git clone https://sonai-2005.github.io/music_player/
 cd music_player
-npm install
-vite --host or npm run dev
+now just hit the live button in vs code or open it from browser 
 
 ```
 -- to view the website
